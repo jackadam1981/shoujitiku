@@ -14,7 +14,7 @@ tklist = '/html/body/div[2]/div[2]/ul/li/a'
 
 hqz = '/html/body/div/div[2]/div[4]'
 # question = '/html/body/div/div[2]/div[4]/div'
-question = '/html/body/div/div/div[1]/div[1]/div'
+question = '//*[@id="sttitle"]/div/span[2]'
 
 # 内网练习
 lx = {}
@@ -39,7 +39,7 @@ wx={}
 #随机练习位置
 wx['place']='/html/body/div/div[3]/div/table/tbody/tr[1]/td[2]/img'
 #题目位置
-wx['question']='/html/body/div/div/div[1]/div[1]/div'
+wx['question']='//*[@id="sttitle"]/div'
 
 # 1-6 ：A-F
 wx['A'] = '/html/body/div/div/div[1]/div[1]/div/div[1]/label'

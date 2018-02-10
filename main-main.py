@@ -15,7 +15,7 @@ from tools.Thread_work import *
 from PyQt5.QtCore import QStringListModel
 import webbrowser
 from tools.sniffer import *
-from tools.scarp import *
+from tools.answerBot import *
 
 
 # 定义主窗口的类，继承自UI文件生成的py
@@ -24,13 +24,13 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(parent=parent)
         self.setupUi(self)
         self.textBrowser.append('系统自检中，请耐心等待几秒')
-        self.B_wechat.setEnabled(False)
-        self.B_firefox.setEnabled(False)
-        self.B_driver.setEnabled(False)
-        self.B_npcap.setEnabled(False)
-        self.B_uid.setEnabled(False)
-        self.B_internet.setEnabled(False)
-        self.B_ethernet.setEnabled(False)
+        # self.B_wechat.setEnabled(False)
+        # self.B_firefox.setEnabled(False)
+        # self.B_driver.setEnabled(False)
+        # self.B_npcap.setEnabled(False)
+        # self.B_uid.setEnabled(False)
+        # self.B_internet.setEnabled(False)
+        # self.B_ethernet.setEnabled(False)
 
         self.work1 = CheckThread()
         self.work1.uptext.connect(self.UpText)
@@ -84,7 +84,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     def firefox(self):
         webbrowser.open_new(
-            'https://download-installer.cdn.mozilla.net/pub/firefox/releases/55.0b13/win64-EME-free/zh-CN/Firefox%20Setup%2055.0b13.exe')
+            'https://download-ssl.firefox.com.cn/releases-sha2/full/58.0/zh-CN/Firefox-full-latest-win64.exe')
 
     def driver(self):
         webbrowser.open_new(
@@ -100,14 +100,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.B_uid.setEnabled(False)
         self.textBrowser.append('启动微信:')
         filedir = self.work1.wechat_dir
+        print(filedir)
         win32api.ShellExecute(0, 'open', filedir, '', '', 1)
         self.work2 = ListenThread()
         self.work2.url = '/YT_WeiXin/Default?oid='
         self.work2.start()
         # self.work2.finished.connect(self.UpText)
         self.work2.get_header.connect(self.setHeader)
-        self.textBrowser.append('请在微信中进入龙谷答题。')
-        self.enable_B('internet')
+        self.textBrowser.append('请在微信中进入龙谷公众号，并点击开始答题。')
+
         self.work2.quit()
 
     def internet(self):

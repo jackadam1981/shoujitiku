@@ -1,0 +1,25 @@
+missing module named resource - imported by posix, D:\PythonTest\shoujitiku\main-main.py
+missing module named posix - imported by os, D:\PythonTest\shoujitiku\main-main.py
+missing module named _posixsubprocess - imported by subprocess, D:\PythonTest\shoujitiku\main-main.py
+missing module named org - imported by pickle, D:\PythonTest\shoujitiku\main-main.py
+missing module named readline - imported by cmd, code, pdb, D:\PythonTest\shoujitiku\main-main.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, D:\PythonTest\shoujitiku\main-main.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, D:\PythonTest\shoujitiku\main-main.py
+missing module named _winreg - imported by platform, selenium.webdriver.firefox.firefox_binary, D:\PythonTest\shoujitiku\main-main.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, D:\PythonTest\shoujitiku\main-main.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, D:\PythonTest\shoujitiku\main-main.py
+missing module named vms_lib - imported by platform, D:\PythonTest\shoujitiku\main-main.py
+missing module named termios - imported by tty, getpass, D:\PythonTest\shoujitiku\main-main.py
+missing module named grp - imported by shutil, tarfile, D:\PythonTest\shoujitiku\main-main.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, D:\PythonTest\shoujitiku\main-main.py
+missing module named 'org.python' - imported by copy, xml.sax, D:\PythonTest\shoujitiku\main-main.py
+missing module named _dummy_threading - imported by dummy_threading, D:\PythonTest\shoujitiku\main-main.py
+missing module named urllib2 - imported by selenium.webdriver.common.utils, selenium.webdriver.remote.remote_connection, selenium.webdriver.common.service
+missing module named StringIO - imported by selenium.webdriver.remote.webelement
+missing module named urlparse - imported by selenium.webdriver.remote.remote_connection
+missing module named httplib - imported by selenium.webdriver.firefox.webdriver, selenium.webdriver.remote.remote_connection, selenium.webdriver.safari.webdriver, selenium.webdriver.blackberry.webdriver, selenium.webdriver.webkitgtk.webdriver
+missing module named cStringIO - imported by selenium.webdriver.firefox.firefox_profile, dpkt.compat
+missing module named copy_reg - imported by cStringIO
+missing module named BytesIO - imported by dpkt.compat
+missing module named pytest - imported by dpkt.ppp, dpkt.pppoe, dpkt.ssl

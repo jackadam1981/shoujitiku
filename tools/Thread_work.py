@@ -6,7 +6,7 @@
 # @File    : Thread_work.py
 # @Software: PyCharm
 # 检查配置文件，检查配套程序，检查网络的类，作为子线程
-from tools.scarp import *
+from tools.answerBot import *
 from tools.sniffer import *
 from tools.check import *
 from PyQt5.QtCore import QThread, pyqtSignal, QRunnable, QThreadPool
@@ -44,34 +44,54 @@ class CheckThread(QThread):
         msg = '读取配置文件'
         self.uptext.emit(msg)
         files = read_conf()
-        # print(files)
         self.firefox_dir = files.get('firefox')
         self.geckodriver_dir = files.get('geckodriver')
         self.wechat_dir = files.get('wechat')
         self.npcap_dir = files.get('npcap')
         self.internet_host = files.get('internet')
-        if self.firefox_dir != '':
-            print('firefox')
+        self.winpcap_dir = files.get('winpcap')
+        self.notfound='notfound'
+        print('关键代码')
+        print(files)
+        print(self.firefox_dir)
+        print(type(self.firefox_dir))
+        print(self.geckodriver_dir)
+        print(self.wechat_dir)
+        print(self.npcap_dir)
+        print(self.winpcap_dir)
+        print(type(self.winpcap_dir))
+        print(self.notfound)
+        print(type(self.notfound))
+        print('--------------')
+        if self.firefox_dir != 'notfound':
             self.uptext.emit('火狐通过自检')
         else:
             self.uptext.emit('火狐没有通过自检，请安装火狐。')
             self.enable_B.emit('firefox')
-        if self.geckodriver_dir != '':
+        #
+        #
+        if self.geckodriver_dir != 'notfound':
             self.uptext.emit('驱动通过自检')
         else:
             self.uptext.emit('驱动没有通过自检，请安装驱动。')
             self.enable_B.emit('geckodriver')
-        if self.wechat_dir != '':
+        #
+        #
+        if self.wechat_dir != 'notfound':
             self.uptext.emit('微信通过自检')
         else:
             self.uptext.emit('微信没有通过自检，请安装驱动。')
             self.enable_B.emit('wechat')
-        if self.npcap_dir != '':
+
+        #
+        if self.winpcap_dir == 'notfound'  or self.winpcap_dir == 'notfound':
             self.uptext.emit('破解工具通过自检')
         else:
             self.uptext.emit('破解工具没有通过自检，请安装驱动。')
             self.enable_B.emit('npcap')
         self.uptext.emit('配置检查结束')
+        #
+        #
         if check_net(self.internet_host):
             # self.enable_B.emit('internet')
             self.enable_B.emit('uid')
@@ -118,7 +138,5 @@ class BotThread(QThread):
 
     def run(self):
         print('实例化')
-        rebot = scarp(**self.kw)
+        rebot = answerBot(**self.kw)
         rebot.Response_GUI(type='wx')
-
-

@@ -51,7 +51,7 @@ def get_extension(file_name):
     if not file_dir:
         print("not found")
         # sys.exit(1)
-        return False
+        return 'notfound'
 
 
 def check_conf():
@@ -71,6 +71,8 @@ def make_conf(type='make'):
     geckodriver = str(get_extension(['geckodriver.exe']))
     WeChat = str(get_extension(['WeChat.exe']))
     npcap = str(get_extension(['NPFInstall.exe']))
+    winpcap = str(get_extension(['rpcapd.exe']))
+
     conf.read(fp)  # 打开conf
     if type != 'up':
         conf.add_section('conf')  # 添加conf节点
@@ -80,10 +82,8 @@ def make_conf(type='make'):
     conf.set('conf', 'geckodriver', geckodriver)  # 添加值
     conf.set('conf', 'wechat', WeChat)  # 添加值
     conf.set('conf', 'npcap', npcap)  # 添加值
+    conf.set('conf', 'winpcap', winpcap)  # 添加值
 
-    # conf.set('conf', 'firefox', '')  # 添加值
-    # conf.set('conf', 'geckodriver', '')  # 添加值
-    # conf.set('conf', 'wechat', '')  # 添加值
     print('set all', fp)
     with open(fp, 'w') as fw:  # 循环写入
         conf.write(fw)
@@ -101,10 +101,9 @@ def read_conf():
         'firefox': conf.get('conf', 'firefox'),
         'geckodriver': conf.get('conf', 'geckodriver'),
         'wechat': conf.get('conf', 'wechat'),
+        'npcap':conf.get('conf','npcap'),
+        'winpcap':conf.get('conf','winpcap'),
         'internet': conf.get('conf', 'internet'),
-        # 'firefox': '',
-        # 'geckodriver': '',
-        # 'wechat':''
     }
     print(file_list)
     return file_list
