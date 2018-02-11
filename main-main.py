@@ -88,7 +88,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     def driver(self):
         webbrowser.open_new(
-            'https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-win64.zip'
+            'https://github.com/mozilla/geckodriver/releases'
         )
 
     def npcap(self):

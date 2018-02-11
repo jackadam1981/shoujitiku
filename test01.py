@@ -6,8 +6,6 @@
 # @File    : test.py
 # @Software: PyCharm
 # !/usr/bin/env python3.2
-print('hello')
-import pcap
-pc=pcap.pcap()
-for d,b in pc:
-    print(d,b)
+s = [1,2,3,4,5,6,7,8,2,3,2,2]
+print(s)
+print(s.pop())

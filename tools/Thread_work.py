@@ -67,6 +67,8 @@ class CheckThread(QThread):
             self.uptext.emit('火狐通过自检')
         else:
             self.uptext.emit('火狐没有通过自检，请安装火狐。')
+            self.uptext.emit('并确保安装在C盘或D盘默认目录下')
+            self.uptext.emit('安装时仅更改盘符。')
             self.enable_B.emit('firefox')
         #
         #
@@ -74,6 +76,8 @@ class CheckThread(QThread):
             self.uptext.emit('驱动通过自检')
         else:
             self.uptext.emit('驱动没有通过自检，请安装驱动。')
+            self.uptext.emit('并确保安装在C盘或D盘默认目录下')
+            self.uptext.emit('安装时仅更改盘符。')
             self.enable_B.emit('geckodriver')
         #
         #
@@ -81,13 +85,17 @@ class CheckThread(QThread):
             self.uptext.emit('微信通过自检')
         else:
             self.uptext.emit('微信没有通过自检，请安装驱动。')
+            self.uptext.emit('并确保安装在C盘或D盘默认目录下')
+            self.uptext.emit('安装时仅更改盘符。')
             self.enable_B.emit('wechat')
 
         #
-        if self.winpcap_dir == 'notfound'  or self.winpcap_dir == 'notfound':
+        if self.winpcap_dir == 'notfound'  and self.winpcap_dir == 'notfound':
             self.uptext.emit('破解工具通过自检')
         else:
             self.uptext.emit('破解工具没有通过自检，请安装驱动。')
+            self.uptext.emit('并确保安装在C盘或D盘默认目录下')
+            self.uptext.emit('安装时仅更改盘符。')
             self.enable_B.emit('npcap')
         self.uptext.emit('配置检查结束')
         #

@@ -37,11 +37,12 @@ def get_extension(file_name):
     # A list of all the possible search directories
     # 从列表中搜索指定文件
     dirs = [
+        os.getcwd(),
         'C:\Program Files',
         'C:\Program Files (x86)',
         'D:\Program Files',
         'D:\Program Files (x86)',
-        os.getcwd(),
+
     ]
     file_dir = recursive_search_dirs(dirs, file_name)
     if file_dir:
