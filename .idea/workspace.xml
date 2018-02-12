@@ -2,152 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bbb03c2-1cd8-42b7-903d-ef132e200813" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/01明文替换.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/02换位加密_倒序.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/03换位加密.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/04RSA加密解密加签验签.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../LearnPython/day99-常用类库/加密解密加签验签.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../LearnPython/test.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LearnPython/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day02-数据组合/01.string.py" afterPath="$PROJECT_DIR$/../LearnPython/day02-数据组合/01.string.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day02-数据组合/02.list.py" afterPath="$PROJECT_DIR$/../LearnPython/day02-数据组合/02.list.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/01.readme" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/01.readme" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/02.TEST.py" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/02.TEST.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/03.find_action.py" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/03.find_action.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/04.webdriver.py" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/04.webdriver.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/05.read_cookie.py" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/05.read_cookie.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/06.write_cookie.py" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/06.write_cookie.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/07.user-agent-firefox.py" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/07.user-agent-firefox.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/08.user-anent-chrome.py" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/08.user-anent-chrome.py" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/aaa.html" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/aaa.html" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/chromedriver.exe" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/chromedriver.exe" />
-      <change beforePath="$PROJECT_DIR$/../LearnPython/day09-爬虫_selenium/geckodriver.exe" afterPath="$PROJECT_DIR$/../LearnPython/day10-爬虫_selenium/geckodriver.exe" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/main-main.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/main-main.exe.manifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/out00-Analysis.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/out00-COLLECT.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/out00-EXE.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/out00-PKG.pkg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/out00-PKG.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/out00-PYZ.pyz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/out00-PYZ.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/warnmain-main.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main-main/xref-main-main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/out00-Analysis.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/out00-COLLECT.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/out00-EXE.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/out00-PKG.pkg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/out00-PKG.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/out00-PYZ.pyz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/out00-PYZ.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/test01.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/test01.exe.manifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/warntest01.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test01/xref-test01.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/conf.ini" afterPath="$PROJECT_DIR$/conf.ini" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main.rar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/MSVCP140.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5.Qt.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5.QtCore.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5.QtGui.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5.QtPrintSupport.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5.QtWidgets.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/bin/qt.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/iconengines/qsvgicon.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qgif.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qicns.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qico.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qjpeg.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qsvg.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qtga.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qtiff.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qwbmp.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/imageformats/qwebp.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/platforms/qminimal.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/platforms/qoffscreen.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/platforms/qwindows.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/PyQt5/Qt/plugins/printsupport/windowsprintersupport.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/Qt5Core.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/Qt5Gui.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/Qt5PrintSupport.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/Qt5Svg.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/Qt5Widgets.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/VCRUNTIME140.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/_bz2.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/_ctypes.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/_decimal.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/_hashlib.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/_lzma.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/_socket.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/_ssl.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-console-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-datetime-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-debug-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-errorhandling-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-file-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-file-l1-2-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-file-l2-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-handle-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-heap-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-interlocked-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-libraryloader-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-localization-l1-2-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-memory-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-namedpipe-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-processenvironment-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-processthreads-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-processthreads-l1-1-1.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-profile-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-rtlsupport-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-string-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-synch-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-synch-l1-2-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-sysinfo-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-timezone-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-core-util-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-conio-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-convert-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-environment-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-filesystem-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-heap-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-locale-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-math-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-multibyte-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-process-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-runtime-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-stdio-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-string-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-time-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/api-ms-win-crt-utility-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/main-main.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/main-main.exe.manifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/pcap.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/pyexpat.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/python3.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/python36.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/pywintypes36.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/select.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/selenium/webdriver/firefox/webdriver.xpi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/selenium/webdriver/firefox/webdriver_prefs.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/selenium/webdriver/remote/getAttribute.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/selenium/webdriver/remote/isDisplayed.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/sip.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/ucrtbase.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/unicodedata.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/win32api.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main-main/win32wnet.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
-      <change beforePath="$PROJECT_DIR$/main-main.py" afterPath="$PROJECT_DIR$/main-main.py" />
       <change beforePath="$PROJECT_DIR$/test01.py" afterPath="$PROJECT_DIR$/test01.py" />
-      <change beforePath="$PROJECT_DIR$/tools/Thread_work.py" afterPath="$PROJECT_DIR$/tools/Thread_work.py" />
       <change beforePath="$PROJECT_DIR$/tools/answerBot.py" afterPath="$PROJECT_DIR$/tools/answerBot.py" />
-      <change beforePath="$PROJECT_DIR$/tools/check.py" afterPath="$PROJECT_DIR$/tools/check.py" />
-      <change beforePath="$PROJECT_DIR$/tools/conf.ini" afterPath="$PROJECT_DIR$/tools/conf.ini" />
       <change beforePath="$PROJECT_DIR$/tools/geckodriver.log" afterPath="$PROJECT_DIR$/tools/geckodriver.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,9 +21,9 @@
     <SUITE FILE_PATH="coverage/shoujitiku$sniffer.coverage" NAME="sniffer Coverage Results" MODIFIED="1518180266923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/shoujitiku$check.coverage" NAME="check Coverage Results" MODIFIED="1518274199444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/shoujitiku$01.coverage" NAME="01明文替换 Coverage Results" MODIFIED="1518316113666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签" />
-    <SUITE FILE_PATH="coverage/shoujitiku$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1518273435489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/shoujitiku$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1518353012200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/shoujitiku$02_list.coverage" NAME="02.list Coverage Results" MODIFIED="1518320700482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LearnPython/day02-数据组合" />
-    <SUITE FILE_PATH="coverage/shoujitiku$answerBot.coverage" NAME="answerBot Coverage Results" MODIFIED="1518333028715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/shoujitiku$answerBot.coverage" NAME="answerBot Coverage Results" MODIFIED="1518392908558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/shoujitiku$01_string.coverage" NAME="01.string Coverage Results" MODIFIED="1518318398378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LearnPython/day02-数据组合" />
     <SUITE FILE_PATH="coverage/shoujitiku$test.coverage" NAME="test Coverage Results" MODIFIED="1518325912514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LearnPython" />
     <SUITE FILE_PATH="coverage/shoujitiku$02.coverage" NAME="02换位加密 Coverage Results" MODIFIED="1518325945524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签" />
@@ -194,41 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main-main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="answerBot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="answerBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/answerBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1189">
-              <caret line="273" column="0" lean-forward="false" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sniffer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/sniffer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pcap.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1725488401/pcap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="98" column="4" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="98" selection-end-column="4" />
+            <state relative-caret-position="168">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -260,7 +87,6 @@
         <option value="$PROJECT_DIR$/tools/xpath.py" />
         <option value="$PROJECT_DIR$/main-main.py" />
         <option value="$PROJECT_DIR$/tools/check.py" />
-        <option value="$PROJECT_DIR$/test01.py" />
         <option value="$PROJECT_DIR$/tools/Thread_work.py" />
         <option value="$PROJECT_DIR$/../LearnPython/day99-常用类库/加密解密加签验签.py" />
         <option value="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/01明文替换.py" />
@@ -271,6 +97,7 @@
         <option value="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/02换位加密_倒序.py" />
         <option value="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/03换位加密.py" />
         <option value="$PROJECT_DIR$/../LearnPython/day11-加密解密加签验签/04RSA加密解密加签验签.py" />
+        <option value="$PROJECT_DIR$/test01.py" />
         <option value="$PROJECT_DIR$/tools/answerBot.py" />
       </list>
     </option>
@@ -281,7 +108,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="293" />
     <option name="width" value="1256" />
     <option name="height" value="1041" />
@@ -304,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,12 +147,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearnPython" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flasktest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -381,14 +208,35 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="shoujitiku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.main-main" />
       <item index="1" class="java.lang.String" itemvalue="Python.answerBot" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test01" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.answerBot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main-main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test01" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main-main" />
       </list>
     </recent_temporary>
   </component>
@@ -409,22 +257,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="293" y="0" width="1256" height="1041" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38594595" sideWeight="0.7447917" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18131869" sideWeight="0.25520834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2725275" sideWeight="0.25520834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18958333" sideWeight="0.7032755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29354838" sideWeight="0.7032755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.021875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03387097" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38157895" sideWeight="0.29672447" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38157895" sideWeight="0.29672447" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -445,20 +292,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/xpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/1d5e2521/125bd58c-ae60-4f07-b1d7-7a2b54d1f63a/main.Question">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/sniffer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -669,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/check.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
@@ -782,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/answerBot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="273" column="0" lean-forward="false" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/sniffer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -800,8 +618,41 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1725488401/pcap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="98" column="4" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="98" selection-end-column="4" />
+        <state relative-caret-position="2304">
+          <caret line="98" column="4" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="98" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="e#787#802#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/answerBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -36,7 +36,7 @@ class answerBot(object):
             executable_path=kwargs.get('geckodriver_dir'),
             firefox_profile=profile,
         )
-        #chrome
+        # chrome
         # options = webdriver.ChromeOptions()
         # options.add_argument('user-agent=' + kwargs.get('user-agent'))
         # self.driver = webdriver.Chrome(options=options)
@@ -137,7 +137,7 @@ class answerBot(object):
 
     # 根据答案回答问题
     def Reply(self, dict=xpath.lx):
-        print('Reply')
+        # print('Reply')
         question = self.GetTxt(dict['question'])
         print(question)
         if question!=0:
@@ -216,12 +216,13 @@ class answerBot(object):
             dict = xpath.lx
         print('--------------------')
         self.WaitClickXPATH(dict['place'])
-        # num = random.randint(2, 3)
-        num = 50
-
-        # self.CheckTxt(xpath.hqz, value.hqz, TF=False)
+        self.CheckTxt(xpath.hqz, value.hqz, TF=False)
+        num = random.randint(50, 65)
+        # num = 50
         # num = int(self.GetTxt(dict['count']))
         # print(num)
+        i, next_rest, next_rest_time = (0, random.randrange(12, 20),
+                                        random.randrange(5, 10))
         for j in range(num):
             self.CheckTxt(xpath.hqz, value.hqz, TF=False)
             j = j + 1
@@ -231,12 +232,23 @@ class answerBot(object):
             self.Reply(dict)
             # 如果是最后一题，页面返回，否则，下一题
             time.sleep(random.uniform(1, 3))
+
             if j == num:
                 self.driver.close()
                 pass
             else:
                 self.WaitClickXPATH(dict['next'])
             print('共%i题第%i题回答完毕。'% (num, j))
+            i += 1
+            if i == next_rest:
+                print('已经连续答了 {} 题，休息 {}秒'.format(i, next_rest_time))
+                for j in range(next_rest_time):
+                    sys.stdout.write('\r程序将在 {}秒后继续答题'.format(next_rest_time - j))
+                    sys.stdout.flush()
+                    time.sleep(1)
+                print('\n继续')
+                i, next_rest, next_rest_time = (0, random.randrange(10, 20),
+                                                random.randrange(5, 10))
             time.sleep(random.uniform(0.2, 0.4))
 
         def Get_Tklist(self, user):
