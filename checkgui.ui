@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>10</y>
+      <width>181</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QPushButton" name="B_wechat">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>安装微信</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_firefox">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>安装火狐</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_npcap">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>安装驱动</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_start">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>启动答题</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>B_wechat</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>wechat()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>656</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>92</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>B_firefox</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>firefox()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>650</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>605</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>B_npcap</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>npcap()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>B_start</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>startdtj()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>416</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>605</x>
+     <y>423</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>npcap()</slot>
+  <slot>wechat()</slot>
+  <slot>firefox()</slot>
+  <slot>startdtj()</slot>
+ </slots>
+</ui>
