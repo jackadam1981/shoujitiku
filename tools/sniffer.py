@@ -1,10 +1,3 @@
-# !/usr/bin/python3
-# -*- coding: utf-8 -*-
-# @Time    : 2018-01-18 14:48
-# @Author  : Jackadam
-# @Email   :
-# @File    : listen.py
-# @Software: PyCharm
 import pcap
 import dpkt
 def sniffer(tag):

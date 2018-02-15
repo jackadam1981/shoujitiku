@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2017/9/20 19:36
-# @Author  : Jackadam
-# @Email   : 
-# @File    : xpath.py
-# @Software: PyCharm
 # 首页相关位置：
 # 请在微信中登陆位置
 username = '/html/body/div/form/div/div[1]/div[2]/div[1]/div[2]/input'

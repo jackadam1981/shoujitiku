@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>799</width>
-    <height>366</height>
+    <width>800</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>320</width>
-      <height>261</height>
+      <width>500</width>
+      <height>480</height>
      </rect>
     </property>
     <property name="font">
@@ -33,9 +33,9 @@
    <widget class="QLineEdit" name="urlEdit">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>10</y>
-      <width>451</width>
+      <x>510</x>
+      <y>40</y>
+      <width>281</width>
       <height>31</height>
      </rect>
     </property>
@@ -46,14 +46,14 @@
      </font>
     </property>
     <property name="text">
-     <string>http://10.99.108.43:81/Login/YT_Login2</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>50</y>
+      <x>510</x>
+      <y>80</y>
       <width>48</width>
       <height>27</height>
      </rect>
@@ -71,9 +71,9 @@
    <widget class="QComboBox" name="nameBox">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>90</y>
-      <width>300</width>
+      <x>510</x>
+      <y>110</y>
+      <width>281</width>
       <height>33</height>
      </rect>
     </property>
@@ -90,8 +90,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>138</y>
+      <x>510</x>
+      <y>160</y>
       <width>96</width>
       <height>27</height>
      </rect>
@@ -109,29 +109,10 @@
    <widget class="QLineEdit" name="numEdit">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>179</y>
-      <width>300</width>
+      <x>510</x>
+      <y>190</y>
+      <width>281</width>
       <height>33</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>227</y>
-      <width>48</width>
-      <height>27</height>
      </rect>
     </property>
     <property name="font">
@@ -141,180 +122,62 @@
      </font>
     </property>
     <property name="text">
-     <string>职名</string>
+     <string/>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
     </property>
    </widget>
-   <widget class="QComboBox" name="kindBox">
+   <widget class="QSplitter" name="splitter">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>310</y>
-      <width>631</width>
-      <height>33</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>60</y>
+      <x>663</x>
+      <y>240</y>
       <width>121</width>
-      <height>283</height>
+      <height>231</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QPushButton" name="B_wechat">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>安装微信</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="B_firefox">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>安装火狐</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="B_driver">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>安装驱动</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="B_npcap">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>破解工具</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="B_uid">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>破解加密</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="B_internet">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>手机版</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="B_ethernet">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>电脑版</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QPushButton" name="B_uid">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>破解加密</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_internet">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>手机版</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_ethernet">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>电脑版</string>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>
  <resources/>
  <connections>
-  <connection>
-   <sender>B_wechat</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>wechat()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>671</x>
-     <y>61</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>636</x>
-     <y>25</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>B_firefox</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>firefox()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>671</x>
-     <y>136</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>635</x>
-     <y>58</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>B_driver</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>driver()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>671</x>
-     <y>177</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>636</x>
-     <y>89</y>
-    </hint>
-   </hints>
-  </connection>
   <connection>
    <sender>B_internet</sender>
    <signal>clicked()</signal>
@@ -360,22 +223,6 @@
     <hint type="destinationlabel">
      <x>637</x>
      <y>238</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>B_npcap</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>npcap()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>698</x>
-     <y>200</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>642</x>
-     <y>268</y>
     </hint>
    </hints>
   </connection>

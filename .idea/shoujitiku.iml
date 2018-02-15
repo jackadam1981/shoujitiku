@@ -7,6 +7,7 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (shoujitiku)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="LearnPython" />
+    <orderEntry type="module" module-name="Flask_longgu" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

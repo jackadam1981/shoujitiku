@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Flask_longgu/.idea/Flask_longgu.iml" filepath="$PROJECT_DIR$/../Flask_longgu/.idea/Flask_longgu.iml" />
       <module fileurl="file://$PROJECT_DIR$/../LearnPython/.idea/LearnPython.iml" filepath="$PROJECT_DIR$/../LearnPython/.idea/LearnPython.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shoujitiku.iml" filepath="$PROJECT_DIR$/.idea/shoujitiku.iml" />
     </modules>

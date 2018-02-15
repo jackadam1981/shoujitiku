@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['D:\\PythonTest\\shoujitiku\\main-main.py'],
-             pathex=['D:\\PythonTest\\shoujitiku'],
+             pathex=['D:\\PythonTest\\shoujitiku\\venv\\Lib\\site-packages', 'D:\\PythonTest\\shoujitiku'],
              binaries=[],
              datas=[],
              hiddenimports=[],

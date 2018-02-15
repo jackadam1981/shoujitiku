@@ -1,10 +1,3 @@
-# !/usr/bin/python3
-# -*- coding: utf-8 -*-
-# @Time    : 2018-02-04 10:49
-# @Author  : Jackadam
-# @Email   :
-# @File    : read_question.py
-# @Software: PyCharm
 import requests, json, sqlite3, time, random
 import sqlalchemy
 from sqlalchemy import create_engine
