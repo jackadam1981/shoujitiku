@@ -70,7 +70,8 @@ def make_conf(type='make'):
 	if type != 'up':
 		conf.add_section('conf')  # 添加conf节点
 	print('add section')
-	conf.set('conf', 'internet', 'www.shoujitiku.net')
+	conf.set('conf', 'internet', '114.114.114.114')
+	conf.set('conf', 'ethernet', '10.1.4.100')
 	conf.set('conf', 'firefox', firefox)  # 添加值
 	conf.set('conf', 'geckodriver', geckodriver)  # 添加值
 	conf.set('conf', 'wechat', WeChat)  # 添加值
@@ -95,6 +96,7 @@ def read_conf():
 		'wechat': conf.get('conf', 'wechat'),
 		'npcap': conf.get('conf', 'npcap'),
 		'internet': conf.get('conf', 'internet'),
+		'ethernet':conf.get('conf','ethernet'),
 	}
 	return file_list
 

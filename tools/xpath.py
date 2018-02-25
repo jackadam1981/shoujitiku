@@ -13,7 +13,7 @@ question = '//*[@id="sttitle"]/div/span[2]'
 # 内网练习
 lx = {}
 lx['place']= '/html/body/div[2]/div/div[2]/div[2]/div[1]'
-lx['question']=''
+lx['question']='/html/body/div/div[2]/div[4]/div'
 # 1-6 ：A-F
 lx['A'] = '/html/body/div/div[3]/table/tbody/tr/td[2]/div/div/label'
 lx['B'] = '/html/body/div/div[4]/table/tbody/tr/td[2]/div/div/label'
@@ -22,11 +22,11 @@ lx['D'] = '/html/body/div/div[6]/table/tbody/tr/td[2]/div/div/label'
 lx['E'] = '/html/body/div/div[7]/table/tbody/tr/td[2]/div/div/label'
 lx['F'] = '/html/body/div/div[8]/table/tbody/tr/td[2]/div/div/label'
 # 确认答案
-lx['confirm'] = '/html/body/div/div[10]/div'
+lx['confirm'] = '.div_qyda'
 # 下一题
 lx['next'] = '/html/body/div/div[11]'
 # 题目数
-lx['count'] ='/html/body/div/div[2]/div[2]/span'
+lx['count'] ='//*[@id="zpage"]'
 
 #微信答题用
 wx={}

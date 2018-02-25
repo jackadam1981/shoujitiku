@@ -30,116 +30,82 @@
      </font>
     </property>
    </widget>
-   <widget class="QLineEdit" name="urlEdit">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>40</y>
-      <width>281</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>80</y>
-      <width>48</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>姓名</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="nameBox">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>110</y>
-      <width>281</width>
-      <height>33</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="editable">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>160</y>
-      <width>96</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>身份证号</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="numEdit">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>190</y>
-      <width>281</width>
-      <height>33</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QSplitter" name="splitter">
     <property name="geometry">
      <rect>
-      <x>663</x>
-      <y>240</y>
-      <width>121</width>
-      <height>231</height>
+      <x>510</x>
+      <y>10</y>
+      <width>281</width>
+      <height>461</height>
      </rect>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
     </property>
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>内部网地址</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="urlEdit">
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="nameBox">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>身份证号</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="numEdit">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
     <widget class="QPushButton" name="B_uid">
      <property name="font">
       <font>
