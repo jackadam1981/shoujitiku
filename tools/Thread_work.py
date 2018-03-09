@@ -95,19 +95,20 @@ class BotThread(QThread):
 			newlist.append(i.text)
 		self.add_listmsg.emit(newlist)
 		
-		
-		# rebot.Response_GUI()
-		# for i in range(10):
-		# 	rebot.Response_GUI()
+	
+	# rebot.Response_GUI()
+	# for i in range(10):
+	# 	rebot.Response_GUI()
 	def run_internet(self):
 		print('实例化')
 		self.rebot = answerBot(**self.kw)
 		self.rebot.Response_GUI()
-		# for i in range(10):
-		# 	rebot.Response_GUI()
+	
+	# for i in range(10):
+	# 	rebot.Response_GUI()
 	def Response(self):
 		self.rebot.Response_GUI()
-	def Goto_tk(self,kind):
-		
+	
+	def Goto_tk(self, kind):
 		self.rebot.Goto_tk(kind)
-		
+

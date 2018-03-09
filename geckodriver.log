@@ -3987,3 +3987,47 @@ Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrp
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1520546815098	geckodriver	INFO	geckodriver 0.19.0
+1520546815117	geckodriver	INFO	Listening on 127.0.0.1:3831
+1520546818293	mozrunner::runner	INFO	Running command: "d:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\jacka\\AppData\\Local\\Temp\\rust_mozprofile.6XeDV9mdWvMY"
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520546819830	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520546822210	Marionette	INFO	Listening on port 3840
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520546822622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520546854719	geckodriver	INFO	geckodriver 0.19.0
+1520546854743	geckodriver	INFO	Listening on 127.0.0.1:3876
+1520546857825	mozrunner::runner	INFO	Running command: "d:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\jacka\\AppData\\Local\\Temp\\rust_mozprofile.YfCAHh4KiQZB"
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520546858852	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520546861029	Marionette	INFO	Listening on port 3884
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520546861453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520640017564	geckodriver	INFO	geckodriver 0.19.0
+1520640017584	geckodriver	INFO	Listening on 127.0.0.1:9528
+1520640020706	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\jacka\\AppData\\Local\\Temp\\rust_mozprofile.gOIorpxW7wbz"
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520640022557	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520640025404	Marionette	INFO	Listening on port 9541
+Unable to read VR Path Registry from C:\Users\jacka\AppData\Local\openvr\openvrpaths.vrpath
+1520640025983	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://10.99.108.43:81/Content/Scripts/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1520640074557	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1520640074564	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520640074567	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 5496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Child 11488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1520641141469	geckodriver::marionette	ERROR	Failed to kill browser process

@@ -30,8 +30,6 @@ missing module named urlparse - imported by selenium.webdriver.remote.remote_con
 missing module named httplib - imported by selenium.webdriver.firefox.webdriver, selenium.webdriver.remote.remote_connection, selenium.webdriver.safari.webdriver, selenium.webdriver.blackberry.webdriver, selenium.webdriver.webkitgtk.webdriver
 missing module named cStringIO - imported by selenium.webdriver.firefox.firefox_profile, dpkt.compat
 missing module named copy_reg - imported by cStringIO
-missing module named BytesIO - imported by dpkt.compat
-missing module named pytest - imported by dpkt.ppp, dpkt.pppoe, dpkt.ssl
 missing module named backports - imported by urllib3.packages.ssl_match_hostname
 missing module named _abcoll - imported by urllib3.packages.ordered_dict
 missing module named dummy_thread - imported by urllib3.packages.ordered_dict
@@ -48,3 +46,5 @@ missing module named 'cryptography.x509' - imported by urllib3.contrib.pyopenssl
 missing module named 'cryptography.hazmat' - imported by urllib3.contrib.pyopenssl
 missing module named cryptography - imported by urllib3.contrib.pyopenssl
 missing module named OpenSSL - imported by urllib3.contrib.pyopenssl
+missing module named BytesIO - imported by dpkt.compat
+missing module named pytest - imported by dpkt.ppp, dpkt.pppoe, dpkt.ssl

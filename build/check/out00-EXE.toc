@@ -35,7 +35,7 @@
  [],
  False,
  False,
- 1518721897,
+ 1519806788,
  [('run.exe',
    'd:\\pythontest\\shoujitiku\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
