@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['D:\\PythonTest\\shoujitiku\\main-main.py'],
-             pathex=['D:\\PythonTest\\shoujitiku\\venv\\Lib\\site-packages', 'D:\\PythonTest\\shoujitiku'],
+a = Analysis(['D:\\MyPythonProject\\shoujitiku\\main-main.py'],
+             pathex=['D:\\MyPythonProject\\shoujitiku'],
              binaries=[],
              datas=[],
              hiddenimports=[],

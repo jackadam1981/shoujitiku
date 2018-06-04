@@ -31,6 +31,7 @@ class answerBot(object):
 				executable_path=kwargs.get('geckodriver_dir'),
 				firefox_profile=profile,
 			)
+
 			# chrome
 			# options = webdriver.ChromeOptions()
 			# options.add_argument('user-agent=' + kwargs.get('user-agent'))
@@ -166,7 +167,7 @@ class answerBot(object):
 		question = self.GetTxt(dict['question'])
 		print(question)
 		if question != 0:
-			print('题目长度%i,等待%i' % (len(question), 0.06 * len(question)))
+			print('题目长度%i,等待%i' % (len(question), round(random.uniform(0.03, 0.06),2)* len(question)))
 			answer_type = question[1:4]
 			print(answer_type)
 			time.sleep(0.06 * len(question))
@@ -273,13 +274,13 @@ class answerBot(object):
 			print('共%i题第%i题回答完毕。' % (num, j))
 			i += 1
 			if i == next_rest:
-				print('已经连续答了 {} 题，休息 {}秒'.format(i, next_rest_time))
+				print('已经连续答了------------------------------------------------------- {} 题，休息 {}秒'.format(i, next_rest_time))
 				for j in range(next_rest_time):
-					sys.stdout.write('\r程序将在 {}秒后继续答题'.format(next_rest_time - j))
+					sys.stdout.write('\r程序将在---------------------------------- {}秒后继续答题'.format(next_rest_time - j))
 					sys.stdout.flush()
 					time.sleep(1)
 				print('\n继续')
-				i, next_rest, next_rest_time = (0, random.randrange(10, 20),
+				i, next_rest, next_rest_time = (0, random.randrange(20, 30),
 				                                random.randrange(5, 10))
 			time.sleep(random.uniform(0.2, 0.4))
 	

@@ -1,16 +1,16 @@
-missing module named resource - imported by posix, D:\PythonTest\shoujitiku\main-main.py
-missing module named posix - imported by os, D:\PythonTest\shoujitiku\main-main.py
-missing module named _posixsubprocess - imported by subprocess, D:\PythonTest\shoujitiku\main-main.py
-missing module named org - imported by pickle, D:\PythonTest\shoujitiku\main-main.py
-missing module named readline - imported by cmd, code, pdb, D:\PythonTest\shoujitiku\main-main.py
-excluded module named _frozen_importlib - imported by importlib, importlib.abc, D:\PythonTest\shoujitiku\main-main.py
-missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, D:\PythonTest\shoujitiku\main-main.py
-missing module named _winreg - imported by platform, selenium.webdriver.firefox.firefox_binary, requests.utils, D:\PythonTest\shoujitiku\main-main.py
+missing module named resource - imported by posix, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named posix - imported by os, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named _posixsubprocess - imported by subprocess, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named org - imported by pickle, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named readline - imported by cmd, code, pdb, D:\MyPythonProject\shoujitiku\main-main.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named _winreg - imported by platform, selenium.webdriver.firefox.firefox_binary, requests.utils, D:\MyPythonProject\shoujitiku\main-main.py
 missing module named _scproxy - imported by urllib.request
-missing module named java - imported by platform, D:\PythonTest\shoujitiku\main-main.py
-missing module named 'java.lang' - imported by platform, xml.sax._exceptions, D:\PythonTest\shoujitiku\main-main.py
-missing module named vms_lib - imported by platform, D:\PythonTest\shoujitiku\main-main.py
-missing module named termios - imported by tty, getpass, D:\PythonTest\shoujitiku\main-main.py
+missing module named java - imported by platform, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named vms_lib - imported by platform, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named termios - imported by tty, getpass, D:\MyPythonProject\shoujitiku\main-main.py
 missing module named urllib.getproxies_environment - imported by urllib, requests.compat
 missing module named urllib.proxy_bypass_environment - imported by urllib, requests.compat
 missing module named urllib.proxy_bypass - imported by urllib, requests.compat
@@ -20,10 +20,10 @@ missing module named urllib.unquote_plus - imported by urllib, requests.compat
 missing module named urllib.quote_plus - imported by urllib, requests.compat
 missing module named urllib.unquote - imported by urllib, requests.compat
 missing module named urllib.quote - imported by urllib, requests.compat
-missing module named grp - imported by shutil, tarfile, D:\PythonTest\shoujitiku\main-main.py
-missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, D:\PythonTest\shoujitiku\main-main.py
-missing module named _dummy_threading - imported by dummy_threading, D:\PythonTest\shoujitiku\main-main.py
-missing module named 'org.python' - imported by copy, xml.sax, D:\PythonTest\shoujitiku\main-main.py
+missing module named grp - imported by shutil, tarfile, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named _dummy_threading - imported by dummy_threading, D:\MyPythonProject\shoujitiku\main-main.py
+missing module named 'org.python' - imported by copy, xml.sax, D:\MyPythonProject\shoujitiku\main-main.py
 missing module named urllib2 - imported by selenium.webdriver.common.utils, selenium.webdriver.remote.remote_connection, selenium.webdriver.common.service, requests.compat
 missing module named StringIO - imported by selenium.webdriver.remote.webelement, urllib3.packages.six, requests.compat
 missing module named urlparse - imported by selenium.webdriver.remote.remote_connection, requests.compat
