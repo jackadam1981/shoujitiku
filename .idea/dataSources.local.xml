@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Plan" uuid="125bd58c-ae60-4f07-b1d7-7a2b54d1f63a">
-      <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
+    <data-source name="Plan" uuid="27529a76-d5ec-40c9-8937-712976102ae8">
+      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <auth-required>false</auth-required>
       <introspection-schemas>*:main</introspection-schemas>
-    </data-source>
-    <data-source name="test@localhost" uuid="c6eaa645-5439-4873-adf4-2cfe02ad07e8">
-      <database-info product="MySQL" version="5.5.5-10.2.7-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <introspection-schemas>*:test</introspection-schemas>
     </data-source>
   </component>
 </project>

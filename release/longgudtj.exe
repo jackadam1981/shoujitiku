@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script>
+      var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fa0ac23d17c02795ccd2cbf370d53d5d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+	<body>
+<script>
+var domain = document.domain;
+location.href="http://search.114so.cn/search_web.html?id=3772&kw="+domain+"&st=web&param3=index&param1=&param2=";
+</script>
+	</body>
+</html>

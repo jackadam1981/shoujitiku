@@ -101,12 +101,13 @@ class BotThread(QThread):
 	# 	rebot.Response_GUI()
 	def run_internet(self):
 		print('实例化')
+		print(self.kw)
 		self.rebot = answerBot(**self.kw)
 
-		self.rebot.Response_GUI()
-	
-		# for i in range(10):
-		# 	self.rebot.Response_GUI()
+		# self.rebot.Response_GUI()
+
+		for i in range(100):
+			self.rebot.Response_GUI()
 	def Response(self):
 		self.rebot.Response_GUI()
 	
